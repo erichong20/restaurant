@@ -16,9 +16,9 @@ const loadMain = () => {
     para.classList.add("description");
     para.classList.add("flex-centered");
 
-    main.appendChild(imgDiv);
     main.appendChild(title);
     main.appendChild(para);
+    main.appendChild(imgDiv);
 }
 
 export {loadMain}

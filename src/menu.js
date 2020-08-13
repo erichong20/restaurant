@@ -28,6 +28,27 @@ const loadMenu = () => {
 
 const loadItems = () => {
     const itemGrid = document.createElement("div");
+    itemGrid.classList.add("menu-grid");
+
+    const item1 = loadMenuItem("maddy");
+    const item2 = loadMenuItem("mad-dog");
+    const item3 = loadMenuItem("dominic");
+    const item4 = loadMenuItem("lucy-sunshine");
+
+    itemGrid.appendChild(item1);
+    itemGrid.appendChild(item2);
+    itemGrid.appendChild(item3);
+    itemGrid.appendChild(item4);
+    main.appendChild(itemGrid);
+}
+
+const loadMenuItem = (imgsrc) => {
+    const item = document.createElement("div");
+    item.classList.add("menu-item");
+    const img = document.createElement("img");
+    img.src = `./img/${imgsrc}.png`;
+    item.appendChild(img);
+    return item;
 }
 
 
