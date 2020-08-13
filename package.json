@@ -1,0 +1,26 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "restaurant page using javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erichong20/restaurant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erichong20/restaurant/issues"
+  },
+  "homepage": "https://github.com/erichong20/restaurant#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "tabsy-css": "^1.0.0"
+  }
+}
